@@ -87,11 +87,17 @@ Then I did some other stuff and fit my lane lines with a 2nd order polynomial, w
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in cell code # through # in my IPython Notebook in `./P4.ipynb`
+I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. I used the formula that mentions in the videos. 
+
+\[
+\frac{\left[1+\left(\frac{dy}{dx}\right)\right]^{\frac{2}{3}}}{|\frac{d^{2}y}{dx^{2}}|}
+\]
+
+
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+I implemented this step in lines 23# through 25# in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
 ![alt text][image6]
 
