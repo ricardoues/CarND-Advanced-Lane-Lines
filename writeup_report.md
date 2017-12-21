@@ -115,4 +115,4 @@ Here's a [link to my video result](https://github.com/ricardoues/CarND-Advanced-
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I used the function process_image (cell code #27) to treat the project video and it is only processing the first frame. 
+The pipeline could fail when the conditions of brightness being different to the images considered. We can make the pipeline more robust considering another images taken in other places and with different climate conditions.
