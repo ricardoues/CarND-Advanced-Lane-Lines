@@ -47,7 +47,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 Original chess board              |  Undistorted chess board 
 :-------------------------:|:-------------------------:
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen1.png" width="250">  |  <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen2.png" width="250">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen1.png" width="350">  |  <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen2.png" width="350">
 
 
 ### Pipeline (single images)
@@ -55,7 +55,7 @@ Original chess board              |  Undistorted chess board
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen3.png" width="250">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen3.png" width="350">
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
