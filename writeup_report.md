@@ -68,13 +68,12 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 The code for my perspective transform includes a function called `warp()`, which appears in code cell #16 in the file `./P4.ipynb`.  The `warp()` function takes as inputs an image (`img`), the source (`src`) and destination (`dst`) points are taken from global variables previously calculated.  I chose the source and destination points by manual inspection. Here they are:
 
-
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 200,700     | 220,700      | 
-| 1200,700     | 1020,700      |
-| 730,460    | 1020,280     |
-| 530,460      | 220,280      |
+| 200,720     | 280,720      | 
+| 580,480     | 400,190      |
+| 720,480    | 920, 190     |
+| 1050,700      | 960, 720       |
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
