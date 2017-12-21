@@ -49,11 +49,9 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 
 
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen1.png" width="250">
-
-Solarized dark             |  Solarized Ocean
+Original chess board              |  Undistorted chess board 
 :-------------------------:|:-------------------------:
-![](https://...Ocean.png)  |  ![](https://...Dark.png)
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen1.png" width="250">  |  <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen2.png" width="250">
 
 
 ### Pipeline (single images)
