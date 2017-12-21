@@ -89,10 +89,11 @@ Then I did some other stuff and fit my lane lines with a 2nd order polynomial, w
 
 I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. I used the formula that mentions in the videos. 
 
+$$
 \[
 \frac{\left[1+\left(\frac{dy}{dx}\right)\right]^{\frac{2}{3}}}{|\frac{d^{2}y}{dx^{2}}|}
 \]
-
+$$
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
