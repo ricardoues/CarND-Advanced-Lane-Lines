@@ -92,7 +92,7 @@ I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. 
 
 ![alt text][radius_curvature]
 
-
+This expression is relatively easy to calculate in the case of other methods such as Isotonic Regression is very difficult, this is a good point to choose 2nd order polynomial.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
