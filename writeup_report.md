@@ -96,9 +96,10 @@ This expression is relatively easy to calculate in the case of other methods suc
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines 23# through 25# in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+I implemented this step in the cell code 27# through 29#  in `./P4.ipynb`.  Here is an example of my result on a test image:
 
-![alt text][image6]
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="550">
+
 
 ---
 
