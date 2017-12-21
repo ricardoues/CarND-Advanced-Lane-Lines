@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 
-[radius_curvature] goo.gl/gzQQWB "Radius Cuvature Formula"
+[radius_curvature]: goo.gl/gzQQWB "Radius Cuvature Formula"
  
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
