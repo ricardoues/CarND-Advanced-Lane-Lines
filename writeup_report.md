@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 
-[radius_curvature] https://latex.codecogs.com/gif.download?%5Cfrac%7B%5Cleft%5B1+%5Cleft%28%5Cfrac%7Bdy%7D%7Bdx%7D%5Cright%29%5Cright%5D%5E%7B%5Cfrac%7B2%7D%7B3%7D%7D%7D%7B%5Cleft%5B%5Cfrac%7Bd%5E%7B2%7Dy%7D%7Bdx%5E%7B2%7D%7D%5Cright%5D%7D "Radius Cuvature Formula"
+[radius_curvature] goo.gl/gzQQWB "Radius Cuvature Formula"
  
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
