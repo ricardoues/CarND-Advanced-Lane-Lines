@@ -23,6 +23,8 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/imagen2.png "Undistorted Chessboard"
 
 
+ 
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -45,7 +47,9 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function (code cell #5, #6, and #7).  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt text][image1 =10x10] ![alt text][image2 =10x10]
+
+
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen1.png" width="48">
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
