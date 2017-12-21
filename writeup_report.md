@@ -19,7 +19,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-![radius_curvature_formula](https://latex.codecogs.com/gif.download?%5Cfrac%7B%5Cleft%5B1+%5Cleft%28%5Cfrac%7Bdy%7D%7Bdx%7D%5Cright%29%5Cright%5D%5E%7B%5Cfrac%7B2%7D%7B3%7D%7D%7D%7B%5Cleft%5B%5Cfrac%7Bd%5E%7B2%7Dy%7D%7Bdx%5E%7B2%7D%7D%5Cright%5D%7D)
+
+[radius_curvature] https://latex.codecogs.com/gif.download?%5Cfrac%7B%5Cleft%5B1+%5Cleft%28%5Cfrac%7Bdy%7D%7Bdx%7D%5Cright%29%5Cright%5D%5E%7B%5Cfrac%7B2%7D%7B3%7D%7D%7D%7B%5Cleft%5B%5Cfrac%7Bd%5E%7B2%7Dy%7D%7Bdx%5E%7B2%7D%7D%5Cright%5D%7D "Radius Cuvature Formula"
  
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -87,13 +88,10 @@ Then I did some other stuff and fit my lane lines with a 2nd order polynomial, w
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. I used the formula that mentions in the videos. 
+I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. I used the following formula that mentions in the videos. 
 
-$$
-\[
-\frac{\left[1+\left(\frac{dy}{dx}\right)\right]^{\frac{2}{3}}}{|\frac{d^{2}y}{dx^{2}}|}
-\]
-$$
+![alt text][radius_curvature]
+
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
