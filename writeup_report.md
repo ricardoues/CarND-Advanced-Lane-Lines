@@ -19,8 +19,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/image1.png "Original Chessboard Image"
-[image2]: ./output_images/image2.png "Undistorted Chessboard"
+[image1]: ./output_images/imagen1.png "Original Chessboard Image"
+[image2]: ./output_images/imagen2.png "Undistorted Chessboard"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
