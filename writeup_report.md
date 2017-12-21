@@ -98,7 +98,7 @@ This expression is relatively easy to calculate in the case of other methods suc
 
 I implemented this step in the cell code 27# through 29#  in `./P4.ipynb`.  Here is an example of my result on a test image:
 
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="550">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen6.png" width="550">
 
 
 ---
