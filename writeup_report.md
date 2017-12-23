@@ -60,7 +60,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at cell codes #8 through #15 in `./P4.ipynb`).  Here's an example of my output for this step.  (note: this is actually from one of the test images)
+I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at cell codes #10 through #14 in `./P4.ipynb`).  Here's an example of my output of this step.  (note: this is actually from one of the test images)
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen4.png" width="350">
 
