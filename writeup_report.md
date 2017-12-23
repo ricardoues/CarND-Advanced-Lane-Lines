@@ -66,7 +66,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform includes a function called `warp()`, which appears in code cell #16 in the file `./P4.ipynb`.  The `warp()` function takes as inputs an image (`img`), the source (`src`) and destination (`dst`) points are taken from global variables previously calculated.  I chose the source and destination points by manual inspection. Here they are:
+The code for my perspective transform includes a function called `warp()`, which appears in code cell #18 in the file `./P4.ipynb`.  The `warp()` function takes as inputs an image (`img`), the source (`src`) and destination (`dst`) points are taken from global variables previously calculated.  I chose the source and destination points by manual inspection. Here they are:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
@@ -81,13 +81,13 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial, which appears in code cell #19 in the file `./P4.ipynb`. I tried other methods such as Isotonic Regression but its performance was worse than the 2nd order polynomial, that is why I used lane lines with a 2nd order polynomial.
+Then I did some other stuff and fit my lane lines with a 2nd order polynomial, which appears in code cell #21 in the file `./P4.ipynb`. I tried other methods such as Isotonic Regression but its performance was worse than the 2nd order polynomial, that is why I used lane lines with a 2nd order polynomial.
 
 
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in cell code 23# through 25# in my IPython Notebook in `./P4.ipynb`. I used the following formula that mentions in the videos. 
+I did this in cell code 22# in the IPython file `./P4.ipynb`. I used the following formula that mentions in the videos. 
 
 ![alt text][radius_curvature]
 
@@ -95,7 +95,7 @@ This expression is relatively easy to calculate in the case of other methods suc
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in the cell code 27# through 29#  in `./P4.ipynb`.  Here is an example of my result on a test image:
+I implemented this step in the cell code 23# through 26#  in `./P4.ipynb`.  Here is an example of my result on a test image:
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen6.png" width="750">
 
