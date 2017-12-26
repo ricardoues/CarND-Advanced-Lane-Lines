@@ -96,11 +96,11 @@ Then I created a function called generate_lines to calculate the lane lines with
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in cell code 22# in the IPython file `./P4.ipynb`. I used the following formula that mentions in the videos. 
+I did this in cell code 31# in the IPython file `./P4.ipynb`. I used the following formula that mentions in the videos. 
 
 ![alt text][radius_curvature]
 
-This expression is relatively easy to calculate in the case of other methods such as Isotonic Regression is very difficult, this is a good point to choose 2nd order polynomial.
+This expression is relatively easy to calculate in the case of other methods such as Kernel Regression, this is a point to favour to choose a 2nd order polynomial.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
