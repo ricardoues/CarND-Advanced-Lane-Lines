@@ -106,7 +106,7 @@ This expression is relatively easier to calculate for a 2nd order polynomial tha
 
 I implemented this step in the cell code 23# through 26#  in `./P4.ipynb`.  Here is an example of my result on a test image:
 
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen6.png" width="750">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen8.png" width="750">
 
 
 ---
