@@ -66,8 +66,9 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ipynb`)., the result of this operation on the above image is shown below: 
 
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="350">
 
-
+Finally, we 
 
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
