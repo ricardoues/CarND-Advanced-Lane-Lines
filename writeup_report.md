@@ -90,7 +90,7 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial, which appears in code cell #21 in the file `./P4.ipynb`. I tried other methods such as Isotonic Regression but its performance was worse than the 2nd order polynomial, that is why I used lane lines with a 2nd order polynomial.
+Then I created a function called generate_lines to calculate the lane lines with a 2nd order polynomial, which appears in code cell #30 in the file `./P4.ipynb`. This function uses sliding windows search in order to calculate the lane lines. After finding a confident detection in one frame, instead of repeating the sliding window search, the function restricts the search space in future frames to a close proximity around the previously detected polynomials.
 
 
 
