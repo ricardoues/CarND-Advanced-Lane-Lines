@@ -64,7 +64,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen4.png" width="350">
 
-After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ipynb`)., the result of this operation is shown below: 
+After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ipynb`)., the result of this operation on the above image is shown below: 
 
 
 
