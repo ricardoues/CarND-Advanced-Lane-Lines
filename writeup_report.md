@@ -68,7 +68,9 @@ After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ip
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="350">
 
-Finally, we 
+Finally, we take the gradient in the x direction with a threshold. The resulting image is shown below:
+
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen6.png" width="350">
 
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
