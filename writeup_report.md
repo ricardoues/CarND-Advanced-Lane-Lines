@@ -68,14 +68,14 @@ After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ip
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="350">
 
-Finally, we take the gradient in the x direction with a threshold. The resulting image is shown below:
+Finally, we take the gradient in the x direction with a threshold (cell codes #25 and #26). The resulting image is shown below:
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen6.png" width="350">
 
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform includes a function called `warp()`, which appears in code cell #18 in the file `./P4.ipynb`.  The `warp()` function takes as inputs an image (`img`), the source (`src`) and destination (`dst`) points are taken from global variables previously calculated.  I chose the source and destination points by manual inspection. Here they are:
+The code for my perspective transform includes a function called `warp()`, which appears in code cell #27 in the file `./P4.ipynb`.  The `warp()` function takes as inputs an image (`img`), the source (`src`) and destination (`dst`) points are taken from global variables previously calculated.  I chose the source and destination points by manual inspection. Here they are:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
@@ -86,7 +86,7 @@ The code for my perspective transform includes a function called `warp()`, which
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen5.png" width="850">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen7.png" width="850">
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
