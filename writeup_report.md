@@ -38,7 +38,7 @@ You're reading it!
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
-The code for this step is contained in the 4th code cell of the IPython notebook located in "P4.ipynb".  
+The code for this step is contained in the 4th code cell of the IPython notebook located in "./P4.ipynb".  
 
 I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
 
@@ -60,11 +60,11 @@ To demonstrate this step, I will show the distortion correction to one of the te
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at cell codes #12 through #21 in `P4.ipynb`).  Here's an example of my output of this step.  (note: this is actually from one of the test images)
+I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at cell codes #12 through #21 in `./P4.ipynb`).  Here's an example of my output of this step.  (note: this is actually from one of the test images)
 
 <img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen4.png" width="350">
 
-After that, we apply a mask to the image, the result of this operation is shown below: 
+After that, we apply a mask to the image (cell codes #22 through #24 in `./P4.ipynb`)., the result of this operation is shown below: 
 
 
 
