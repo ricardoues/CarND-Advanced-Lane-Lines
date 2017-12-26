@@ -104,9 +104,9 @@ This expression is relatively easier to calculate for a 2nd order polynomial tha
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in the cell code 23# through 26#  in `./P4.ipynb`.  Here is an example of my result on a test image:
+I implemented this step in the cell code 31# through 34#  in `./P4.ipynb`.  Here is an example of my result on a test image:
 
-<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen8.png" width="750">
+<img src="https://github.com/ricardoues/CarND-Advanced-Lane-Lines/raw/master/output_images/imagen8.png" width="850">
 
 
 ---
