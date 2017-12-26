@@ -100,7 +100,7 @@ I did this in cell code 31# in the IPython file `./P4.ipynb`. I used the followi
 
 ![alt text][radius_curvature]
 
-This expression is relatively easy to calculate in the case of other methods such as Kernel Regression, this is a point to favour to choose a 2nd order polynomial.
+This expression is relatively easier to calculate for a 2nd order polynomial than other methods such as [Kernel Regression](https://en.wikipedia.org/wiki/Kernel_regression), this is a point in favour of choosing a 2nd order polynomial.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
